@@ -1,0 +1,188 @@
+html {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+body {
+  background: #ffffff;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.headers {
+  position: absolute;
+  padding-top: 80px;
+  top: 1em;
+  left: 14.6%;
+  margin-left: 1.8%;
+}
+.headers h4 {
+  margin-top: 0;
+}
+
+.line {
+  position: absolute;
+  top: 10em;
+  margin-left: 16.4%;
+  margin-right: 16.4%;
+  width: 67.2%;
+  border: none;
+  border-top: 2px solid #d9d9d940;
+}
+
+.fotogallery {
+  font-size: 20px;
+}
+
+.bckgr {
+  margin: 0 auto;
+  height: 19em;
+  background: url("../img/icons/architect.svg") center center no-repeat;
+  filter: brightness(0.7) blur(6px);
+  background-size: cover;
+}
+
+#previous-change-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../img/icons/architect.svg") center center no-repeat;
+  height: 19em;
+  width: 100%;
+  background-size: cover;
+}
+
+.img-row {
+  margin-left: 15%;
+  margin-right: 15%;
+  position: absolute;
+  top: 200px;
+  font-size: 0;
+  width: 70%;
+}
+.img-row .icon-item {
+  display: inline-block;
+  position: relative;
+  height: auto;
+  margin: 2% 2%;
+  width: 21%;
+  font-weight: 900;
+  color: grey;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.img-row .icon-item:hover, .img-row .icon-item:focus, #root:hover, #root:focus {
+  transform: scale(1.05);
+}
+.img-row figcaption {
+  text-align: center;
+  font-size: 15px;
+  border: 2px solid #eeeeee;
+  box-shadow: 0px 0px 6px 0px #cecece;
+  border-top: 0;
+  border-radius: 0px 0px 4px 4px;
+  position: absolute;
+  background: white;
+  padding: 1.2vw 0px;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  bottom: -1.5vh;
+  transition: all 0.4s ease-in-out;
+  /*&:hover, &:focus {
+  	transform: scaleY(1.3);
+  } ;*/
+}
+.img-row img {
+  border-radius: 4px;
+}
+
+.add {
+  cursor: pointer;
+}
+
+.scale-icon-up {
+  animation: 0.3s scale-icon-up both;
+}
+
+@keyframes scale-icon-up {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.scale-icon-down {
+  animation: 0.5s scale-icon-down both;
+}
+
+#root {
+  width: 21%;
+  display: inline-block;
+  position: relative;
+  height: auto;
+  margin: 2% 2%;
+  width: 21%;
+  font-weight: 900;
+  color: grey;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.new-icon-item {
+  width: 100%;
+  margin: 0;
+}
+
+@keyframes scale-icon-down {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.bart {
+  margin-left: 2%;
+}
+
+@media screen and (max-width: 1600px) {
+  .img-row figcaption {
+    padding: 1vw 0;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .img-row figcaption {
+    font-size: 12px;
+  }
+  .img-row .icon-item, #root {
+    width: 29.33%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .img-row figcaption {
+    font-size: 12px;
+    padding: 2vw 0;
+  }
+  .img-row .icon-item, #root {
+    width: 46%;
+    margin: 4% 2%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .img-row figcaption {
+    padding: 3vw 0;
+  }
+  .img-row .icon-item, #root {
+    width: 90%;
+    margin: 6% 2%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

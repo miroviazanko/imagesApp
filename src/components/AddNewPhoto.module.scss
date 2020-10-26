@@ -1,0 +1,157 @@
+$color-background-Container: #000000cc;
+$color-background-Add:  #ffffff;
+$color-background-Button: #ffffff;
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.addPhoto {
+  font-family: arial;
+  font-weight: 900;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $color-background-Container;
+  font-size: 16px;
+}
+.addPhotoContainer {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  width: 45%;
+  height: 90%;
+  margin-left: -22.5%;
+}
+.addPhotoLowerContainer {
+  background: $color-background-Add;
+  border-radius: .2em;
+  position: relative;
+  padding-bottom: 83px;
+}
+.addCloseIcon {
+    position: absolute;
+    right: 0%;
+    top: -30px;
+    transform: scale(.8);
+    cursor: pointer;
+}
+.addPhotoText {
+  padding: 1.5em;
+  padding-bottom: 1em;
+}
+.addPhotoSmallContainer {
+  border: 3px dashed #9393932b;
+  text-align: center;
+  margin: 0 1.5em;
+  color: #aaaaaa;
+}
+.addPhotoSmallContainer p {
+  font-size: .85em;
+}
+.addPhotoCamera {
+  padding-top: 35px;
+}
+.addPhotoHere {
+  margin: 5px;
+}
+.addPhotoOr{
+  margin: 5px;
+}
+.addPhotoChoose {
+  border: 3px solid #aaaaaa;
+  border-radius: 3px;
+  width: 30%;
+  padding: .8em 1em;
+  margin: 0 35%;
+  margin-bottom: 3em;
+  cursor: pointer;
+}
+.addPhotoButton {
+  margin: 1em 0;
+  transform: scale(.8);
+  position: absolute;
+  right: .7em;
+  cursor: pointer;
+}
+
+
+/*-------------------------------------------
+--------BUTTON FOR ADDING FILE(IMAGE)--------
+--------------------------------------------*/
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+input[type="file"] {
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  left: 15px;
+  font-size: 17px;
+  color: #b8b8b8;
+}
+.buttonWrap {
+  position: relative;
+}
+.button {
+  display: inline-block;
+  padding: 12px 18px;
+  cursor: pointer;
+  width: 35%;
+  border: 3px solid #aaaaaa;
+  border-radius: 5px;
+  background-color: $color-background-Button;
+  font-size: 12px;
+  font-weight: bold;
+  color: #aaaaaa;
+  margin-bottom: 40px;
+}
+
+/*--------------------------------------
+--------MEDIA QUERIES-------------------
+--------------------------------------*/
+
+
+@media screen and (max-width: 1300px) {
+  .addPhotoContainer {
+    transform: scale(.9);
+
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .addPhotoContainer {
+    transform: scale(.7);
+    width: 65%;
+    margin-left: -32.5%;
+    top: 10%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .addPhotoContainer {
+    transform: scale(.6);
+    width: 75%;
+    margin-left: -37.5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .addPhotoContainer {
+    transform: scale(.6);
+    width: 100%;
+    margin-left: -50%;
+  }
+  .addPhotoChoose {
+    width: 50%;
+    margin: 0 25%;
+  }
+}

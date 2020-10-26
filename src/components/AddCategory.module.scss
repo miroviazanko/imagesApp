@@ -1,0 +1,89 @@
+
+$color-background-Container: #000000cc;
+$color-background-Add: #ffffff;
+
+
+
+.formContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $color-background-Container;
+  font-size: 16px;
+}
+.fullViewAdd {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  width: 600px;
+  height: 180px;
+  margin-left: -300px;
+}
+.addCategory {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  width: 600px;
+  height: 150px;
+  margin-left: -300px;
+  background: $color-background-Add;
+  color: grey;
+  border-radius: 4px;
+}
+.textAdd{
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.inputAdd {
+  width: 72%;
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  border: 0;
+  border-bottom: 2px solid #0000001f;
+  color: #0000005c;
+  font-size: .9em;
+  font-weight: 900;
+
+}
+.close {
+  transform: scale(.5);
+  position: absolute;
+  right: -32px;
+  top: 15%;
+  cursor: pointer;
+}
+.addButton {
+  transform: scale(.6);
+  position: absolute;
+  right: -3%;
+  bottom: 11%;
+  cursor: pointer;
+}
+.addPhoto {
+  width: 78%;
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .fullViewAdd {
+    transform: scale(.7);
+  }
+}
+@media screen and (max-width: 460px) {
+
+  .fullViewAdd {
+    transform: scale(.5);
+  }
+}
+@media screen and (max-width: 300px) {
+  .fullViewAdd {
+    transform: scale(.4);
+  }
+}

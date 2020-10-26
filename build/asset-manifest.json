@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d1dde4ca.chunk.css",
+    "main.js": "/static/js/main.9f131217.chunk.js",
+    "main.js.map": "/static/js/main.9f131217.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bc5db37b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bc5db37b.js.map",
+    "static/js/2.25ee80e0.chunk.js": "/static/js/2.25ee80e0.chunk.js",
+    "static/js/2.25ee80e0.chunk.js.map": "/static/js/2.25ee80e0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d42619a0ccd9fbf0f92eadd368d3aa49.js": "/precache-manifest.d42619a0ccd9fbf0f92eadd368d3aa49.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d1dde4ca.chunk.css.map": "/static/css/main.d1dde4ca.chunk.css.map",
+    "static/js/2.25ee80e0.chunk.js.LICENSE.txt": "/static/js/2.25ee80e0.chunk.js.LICENSE.txt",
+    "static/media/Xzavriet.svg": "/static/media/Xzavriet.a7788151.svg",
+    "static/media/add-category.svg": "/static/media/add-category.070bd823.svg",
+    "static/media/addphoto.svg": "/static/media/addphoto.162b88ed.svg",
+    "static/media/App.scss": "/static/media/architect.2b99e8a3.svg",
+    "static/media/camera.svg": "/static/media/camera.62bb3d67.svg",
+    "static/media/left.svg": "/static/media/left.d15f6a5b.svg",
+    "static/media/pridat-button.svg": "/static/media/pridat-button.925c28ba.svg",
+    "static/media/pridat-fotky-text.svg": "/static/media/pridat-fotky-text.b7163ec3.svg",
+    "static/media/pridat.svg": "/static/media/pridat.e0631cff.svg",
+    "static/media/right.svg": "/static/media/right.d43096e6.svg",
+    "static/media/zavriet.svg": "/static/media/zavriet.0a0cf3e8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc5db37b.js",
+    "static/js/2.25ee80e0.chunk.js",
+    "static/css/main.d1dde4ca.chunk.css",
+    "static/js/main.9f131217.chunk.js"
+  ]
+}
